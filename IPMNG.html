@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+      <link rel="stylesheet" href="IP.css">
+
+      <title>group 8</title>
+   </head>
+   <body>
+      <!-- HEADER -->
+      <header class="header" id="header">
+         <div class="header__container">
+            <a href="#" class="header__logo">
+               <i class="ri-cloud-fill"></i>
+               <span>IP</span>
+            </a>
+            
+            <button class="header__toggle" id="header-toggle">
+               <i class="ri-menu-line"></i>
+            </button>
+         </div>
+      </header>
+
+      <!-- SIDEBAR -->
+      <nav class="sidebar" id="sidebar">
+         <div class="sidebar__container">
+            <div class="sidebar__user">
+               <div class="sidebar__img">
+                  <img src="#" alt="image">
+               </div>
+   
+               <div class="sidebar__info">
+                  <h3>Oluoch </h3>
+                  <span>oluoch@gmail.com</span>
+               </div>
+            </div>
+
+            <div class="sidebar__content">
+               <div>
+                  <h3 class="sidebar__title">MANAGE</h3>
+
+                  <div class="sidebar__list">
+                    <a href="index.html" class="sidebar__link">
+                        <i class="ri-home-4-line"></i>
+                        <span>Home</span>
+                     </a>
+                     <a href="#" class="sidebar__link active-link">
+                        <i class="ri-pie-chart-2-fill"></i>
+                        <span>My Records</span>
+                     </a>
+                     
+                     <a href="exp.html" class="sidebar__link">
+                        <i class="ri-calendar-fill"></i>
+                        <span>Expiration</span>
+                     </a>
+
+                     <a href="owner.html" class="sidebar__link">
+                        <i class="ri-user-line"></i>
+                        <span>Ownership</span>
+                     </a>
+                  </div>
+               </div>
+
+            <div class="sidebar__actions">
+               <button>
+                  <i class="ri-moon-clear-fill sidebar__link sidebar__theme" id="theme-button">
+                     <span>Theme</span>
+                  </i>
+               </button>
+
+               <button class="sidebar__link">
+                  <i class="ri-logout-box-r-fill"></i>
+                  <span>Log Out</span>
+               </button>
+               <div class="social-media">
+                <a href=""><i class="ri-facebook-fill"></i></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></i></a>
+                <a href=""><i class="ri-twitter-fill"></i></i></a>
+            </div>
+            </div>
+            
+         </div>
+      </nav>
+
+      <!-- MAIN -->
+      <main class="main container" id="main">
+         <h1>Welcome Oluoch</h1>
+         <h4>My Records</h4>
+         <br>
+         <table style="width:100%">
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+                <td>Owner's ID</td>
+                <td>Last Name</td>
+                <td>Full Name</td>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Oluoch</td>
+                <td>Oluoch Lenny Maina</td>
+            </tr>
+          </table>
+          <br>
+          <table style="width:100%">
+            <tr>
+              <th></th>
+              <th></th>
+              
+            </tr>
+            <tr>
+                <td>Registration date</td>
+                <td>Expiration date</td>
+                
+            </tr>
+            <tr>
+                <td>12/12/23</td>
+                <td>12/12/24</td>
+                
+            </tr>
+          </table>
+          <br>
+          <textarea rows="4" cols="80" name="comment" form="userform">
+            Leave a comment here...</textarea>
+      </main>
+      
+      <!-- MAIN JS -->
+      <script src="ip.js"></script>
+   </body>
+</html>
